@@ -1,6 +1,6 @@
 import { RouteComponentProps } from "@reach/router";
 import React from "react";
-import LoginForm from "../components/login/Form";
+import LoginForm from "../components/login/LoginForm";
 import { Container, Heading, Error } from "../components/styled";
 import { useSelector } from "../redux/hooks";
 
