@@ -1,0 +1,35 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@reach/router": "^1.2.1",
+    "@types/node": "^12.7.4",
+    "@types/reach__router": "^1.2.4",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-redux": "^7.1.2",
+    "@types/redux": "^3.6.0",
+    "@types/reselect": "^2.2.0",
+    "@types/socket.io-client": "^1.4.32",
+    "@types/styled-components": "^4.1.18",
+    "faker": "^4.1.0",
+    "moment": "^2.24.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "reselect": "^4.0.0",
+    "shortid": "^2.2.15",
+    "socket.io-client": "^2.2.0",
+    "styled-components": "^4.3.2",
+    "typesafe-actions": "^4.4.2"
+  },
+  "scripts": {
+    "dev": "parcel public/index.html"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.2"
+  }
+}

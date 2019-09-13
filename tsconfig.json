@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "resolveJsonModule": true,
+    "downlevelIteration": true
+  },
+  "exclude": ["node_modules", "dist", "build", ".cache"]
+}
