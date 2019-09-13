@@ -5,7 +5,7 @@ import {
   smileysAndPeople,
   symbols,
   travelAndPlaces
-} from "../../../../server/src/emojis";
+} from "../../emojis";
 
 export default {
   smileys: {
