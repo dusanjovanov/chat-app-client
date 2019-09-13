@@ -28,7 +28,7 @@
   },
   "scripts": {
     "dev": "parcel public/index.html",
-    "build": "parcel build -d build"
+    "build": "parcel build public/index.html -d build"
   },
   "devDependencies": {
     "typescript": "^3.6.2"
