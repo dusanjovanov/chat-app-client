@@ -1,4 +1,4 @@
-const SERVER_URL = "https://chat-app-jov.herokuapp.com";
+import { SERVER_URL } from "./config";
 
 export const verifyToken = async () => {
   try {
