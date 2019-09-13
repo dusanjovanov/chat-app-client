@@ -1,6 +1,8 @@
+const SERVER_URL = "https://chat-app-jov.herokuapp.com";
+
 export const verifyToken = async () => {
   try {
-    const res = await fetch("http://localhost:5000/verifyToken", {
+    const res = await fetch(`${SERVER_URL}/verifyToken`, {
       headers: { Accept: "application/json" },
       credentials: "include"
     });
@@ -26,7 +28,7 @@ export const verifyToken = async () => {
 
 export const login = async (email: string, password: string) => {
   try {
-    const res = await fetch("http://localhost:5000/login", {
+    const res = await fetch(`${SERVER_URL}/login`, {
       method: "POST",
       body: JSON.stringify({ email, password }),
       headers: {
@@ -59,7 +61,7 @@ export const login = async (email: string, password: string) => {
 
 export const logout = async () => {
   try {
-    await fetch("http://localhost:5000/logout", {
+    await fetch(`${SERVER_URL}/logout`, {
       credentials: "include"
     });
     return {};
