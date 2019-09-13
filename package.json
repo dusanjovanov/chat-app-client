@@ -27,7 +27,8 @@
     "typesafe-actions": "^4.4.2"
   },
   "scripts": {
-    "dev": "parcel public/index.html"
+    "dev": "parcel public/index.html",
+    "build": "parcel build -d build"
   },
   "devDependencies": {
     "typescript": "^3.6.2"
