@@ -7,7 +7,9 @@ export const createSocketMiddleware = url => {
     switch (action.type) {
       case "LOGIN_SUCCESS":
       case "TOKEN_VERIFIED_LOGGED_IN": {
-        socket = io(url);
+        socket = io(url, {
+          transports: ["websocket", "polling", "flashsocket"]
+        });
 
         socket.once("init", payload => {
           store.dispatch({ type: "INIT_LOAD", payload });
